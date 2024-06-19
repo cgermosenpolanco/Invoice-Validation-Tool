@@ -6,6 +6,8 @@ in the same Excel file.
 
 Author: Carlos Germosen Polanco
 Date: 6/19/2024
+
+Link to GitHub repository: https://github.com/cgermosenpolanco/Invoice-Validation-Tool
 """
 
 from difflib import SequenceMatcher
