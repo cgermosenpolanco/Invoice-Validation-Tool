@@ -1,4 +1,6 @@
 """
+GitHub repository: https://github.com/cgermosenpolanco/Invoice-Validation-Tool
+
 This script compares contract and invoice data from an Excel file,
 calculates fuzzy matching scores between description and part numbers,
 and identifies discrepancies. The discrepancies are saved to a new sheet
@@ -6,8 +8,6 @@ in the same Excel file.
 
 Author: Carlos Germosen Polanco
 Date: 6/19/2024
-
-Link to GitHub repository: https://github.com/cgermosenpolanco/Invoice-Validation-Tool
 """
 
 from difflib import SequenceMatcher
