@@ -55,8 +55,8 @@ for _, contract_row in contract_df.iterrows():
             invoice_row["Description"]
             )
         partnumber_score = calculate_fuzzy_score(
-            str(contract_row["PartNumber"]),
-            str(invoice_row["PartNumber"])
+            contract_row["PartNumber"],
+            invoice_row["PartNumber"]
             )
 
         # Compare similar descritions and part numbers
